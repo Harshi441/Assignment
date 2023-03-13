@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: lightpink; */
+    background-color: azure;
+    
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 200px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ADBCE6;
+  }
+
+  .content {
+    margin-left: 220px;
+    flex-grow: 1;
+    box-sizing: border-box;
+  }
+  .about, .contact{
+    font-size: 160%;
+  }
+  .about:hover{
+    font-size: 180%;
+    
+  }
+  .contact:hover{
+    font-size: 180%;
+  }
